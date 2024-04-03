@@ -1,0 +1,346 @@
+@media (max-width: 769px) {
+	.wrapper{
+		max-width: 768px;
+	}
+
+	.profile__body {
+		top: 60px;
+		left: 76%;
+	}
+
+	.header__row {
+		width: 768;
+		height: 90px;
+	}
+	
+	.header__nav {
+		position: absolute;
+		top: -500px;
+		right: 0;
+		width: 332px;
+		height: 570px;
+		background-color: #0C0C0E;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.header__nav.active{
+		top: 0;
+	}
+
+	.icon_profile {
+		z-index: 1;
+		margin: 30px 10px 0 98px;
+		order: -1;
+	}
+
+	.header:before {
+	z-index: 3;
+	}
+
+	.menu-items {
+		display: flex;
+		flex-direction: column;
+		margin: 42px 0px 0 0;
+	}
+	
+	.menu-items li {
+		align-self: center;
+		height: 50px;
+		margin: 0 0 30px 0;
+	}
+
+	.menu-items li:last-child{
+		align-self: center;
+		margin: 0;
+	}
+
+	.welcome__picture {
+		width: 100%;
+		height: 600px;
+		background: url('img/overlay.png') 0 0 no-repeat, url('img/image.jpg');
+		margin: 0 0 20px 0;
+	}
+
+	.about__text {
+		margin: 40px 15px 20px 15px;
+	}
+
+
+
+
+
+	.image_item {
+		margin: 0 auto;
+	}
+
+	.slider__wrapper {
+		max-width: 614px;
+		max-height: 601px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.slider {
+		max-width: 450px;
+		max-height: 601px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+
+	.slider__btn-prev {
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 49%;
+		margin: 0 0 0 5px;
+		cursor: pointer;
+	}
+	
+	.slider__btn-next {
+		display: block;
+		position: absolute;
+		left: 93%;
+		top: 50%;
+		margin: 0 0 0 5px;
+		cursor: pointer;
+	}
+
+
+	.image_item {
+		margin: 0;
+	}
+
+	.slider__dots {
+		margin: 25px 0 0 15px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.slide_item1 {
+		display: block;
+	}
+
+	.slide_item1 div {
+		height: 16px;
+		width: 16px;
+		border-radius: 50%;
+		margin: 0 10px 0 0;
+		cursor: pointer;
+		position: relative;
+	} 
+
+	.favorites__seasons label {
+		margin: 0 30px 0 20px;
+	}
+
+	@keyframes move-bottom {
+		0% {bottom: -10px;}
+		25% {bottom: 2300px;}
+		50% {bottom: 4600px;}
+		75% {bottom: 6900px;}
+		100% {bottom: 0px;}
+	} 
+
+	@keyframes move-stop1 {
+		0% {bottom: -10px;}
+		100% {bottom: -10px;}
+	}
+	
+	@keyframes move-stop2 {
+		0% {bottom: 2300px;}
+		100% {bottom: 2300px;}
+	} 
+	
+	@keyframes move-stop3 {
+		0% {bottom: 4600px;}
+		100% {bottom: 4600px;}
+	} 
+	
+	@keyframes move-stop4 {
+		0% {bottom: 6900px;}
+		100% {bottom: 6900px;}
+	} 
+
+
+
+
+
+
+
+
+
+	.layout-2-column {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.header_dessert {
+		margin: 0 0 38px 0;
+	}
+
+	.dessert-shop__row {
+		display: flex;
+		justify-content: end;
+		height: 40px;
+		margin: 0 0 40px 0;
+	}
+
+	.digital__title {
+		margin: 20px 0 40px 0;
+	}
+	
+	.find-card {
+		margin: 0 auto;
+		width: 600px;
+	}
+
+	.get-card {
+		width: 600px;
+		margin: 0 auto;
+	}
+
+	.get-reader-card {
+		margin: 20px 0 0 0px;
+		text-align: center;
+	}
+
+	.get-card p {
+		text-align: center;
+		width: 600px;
+		margin: 40px 0 0 0;
+	}
+
+	.buttons_block {
+		margin: 40px 0 0 0;
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+@media (max-width: 765px) {
+	.wrapper{
+		max-width: 764px;
+	}
+	
+	.profile__body {
+		top: 60px;
+		left: 64%;
+	}
+
+	.header__name {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.choice_season label {
+		margin: 0 30px 0 15px;
+	}
+
+	.icon_profile1 {
+		margin: 0 0 0 150px;
+	}
+
+	.contact__map img {
+		max-width: 500px;
+	} 
+}
+
+
+
+
+
+@media (max-width: 645px) {
+	.wrapper{
+		max-width: 644px;
+	}
+	
+	.profile__body {
+		top: 60px;
+		left: 66%;
+	}
+
+	.favorites__wrapper {
+		max-width: 450px;
+		max-height: 1760px;
+		margin: 0 auto;
+	}
+
+	.favorites__item1 {
+		margin: 0 0 20px 0;
+	}
+	
+	.favorites__item2 {
+		margin: 0 0 20px 0;
+	}
+
+	@keyframes move-bottom {
+		0% {bottom: 0px;}
+		25% {bottom: 1760px;}
+		50% {bottom: 3520px;}
+		75% {bottom: 5280px;}
+		100% {bottom: 0px;}
+	}
+
+	.favorites__item1 {
+		height: 420px;
+		width: 350px;
+	}
+	
+	.favorites__item2 {
+		height: 420px;
+		width: 350px;
+	}
+
+	.staff {
+		font-size: 14px;
+		margin: 10px 0px;
+		line-height: 15px;
+	}
+	
+	.item_title h4 {
+		font-size: 14px;
+		margin: 5px 0px;
+		line-height: 20px;
+	}
+	
+	.item_text {
+		font-size: 11px;
+		line-height: 25px;
+		margin: 10px 0 10px 20px;
+		max-width: 245px;
+		max-height: 220px;
+	}
+	
+	.item_button {
+		margin: 40px 0 0 20px;
+	}
+	
+	.item_button1 {
+		margin: 40px 0 0 20px;
+	}
+	
+	.cacle {
+		margin: 55px 0 0 20px;
+	}
+	
+	.queen {
+		margin: 95px 0 0 20px;
+	}
+	
+	.item_picture {
+		left: 270px;
+		bottom: -1px;
+	}
+	
+	.item_picture img {
+		max-width: 150px;
+		max-height: 200px;
+	}
+	
+}
